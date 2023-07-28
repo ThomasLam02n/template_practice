@@ -1,0 +1,54 @@
+/* Desktop styles */
+@media (min-width: 1025px) {
+
+    body {
+        
+    }
+
+    .form {
+        padding-bottom: 2rem;
+    }
+    
+    .form__background {
+        margin-top: 0;
+    }
+
+    .form__content {
+        display: flex;
+        margin: 0 auto;
+    }
+
+
+}
+
+/* Màn hình máy tính bảng */
+@media only screen and (min-width: 666px) {
+
+    .form__cover {
+        display: flex !important;
+        margin: auto 0;
+    }
+
+    .form {
+        width: 50%;
+        padding-bottom: 2rem;
+    }
+    
+    .form__background {
+        width: 50%;
+        margin-top: 0;
+    }
+
+    .form__content {
+        display: flex;
+    }
+    
+}
+
+/* Màn hình điện thoại di động */
+@media only screen and (min-width: 574) {
+    /* .form__content {
+        display: flex;
+        margin: 7.5rem auto 0 auto;
+    } */
+}
