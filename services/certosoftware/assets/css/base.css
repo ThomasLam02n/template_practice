@@ -6,12 +6,15 @@
     --btn-color-blue: #4335DE;
     --background-silider-color: linear-gradient(180deg, #F7C95F 0%, #FDB235 100%);
     --background-color-blue: linear-gradient(180deg, #2925CC 0%, #4B48E5 100%);
+    --background-color-header: linear-gradient(0deg, #E7EFFA 0%, rgba(255, 255, 255, 0.00) 100%);
     --primary-text-color: #02033B;
     --ff-main: 'Inter', sans-serif;
     
     --fw-400: 400;
     --fw-700: 700;
     --fw-800: 800;
+
+    --mw-website: 120rem;
 }
 
 /* Reset CSS */
@@ -54,12 +57,15 @@
     -moz-appearance: none;
     appearance: none;
   }
+
+  .col-5, .col-2 {
+    padding: 0 !important;
+  }
   
 .btn {
     padding: 1rem;
     font-weight: var(--fw-800);
     border-radius: 2.625rem;
-    font-weight: var(--fw-800);
 }
 
 .btn-ogrange {
@@ -75,5 +81,22 @@
 .btn-blue {
     background-color: var(--btn-color-blue);
     color: var(--white-color);
+    padding: 1rem 1.30956rem 1rem 1.25rem;
 }
-  
+
+.slick-arrow {
+  display: none !important;
+}
+
+.slick-track {
+  display: flex !important;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
