@@ -70,12 +70,14 @@
 
 .btn-ogrange {
     background-color: var(--btn-color-orange);
+    font-size: 1.1875rem;
 }
 
 .btn-white {
     background-color: var(--white-color);
     background: rgba(255, 255, 255, 0.00);
     box-shadow: 0px 0px 0px 2px #02033B inset;
+    font-size: 1.1875rem;
 }
 
 .btn-blue {

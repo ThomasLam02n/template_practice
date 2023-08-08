@@ -1,15 +1,271 @@
 @media screen and (min-width: 1480px) {
-    html {
-      font-size: 1.25rem;
-    }
+  html {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .header__mobile {
+    display: block;
   }
 
-@media screen and (max-width: 1204px) {
-    .header__mobile {
-        display: block;
-    }
+  .header__desktop {
+    display: none;
+  }
 
-    .header__desktop {
-        display: none;
-    }
+  .intro__circle {
+    left: -38rem;
+  }
+
+  .intro__background {
+    width: 30rem;
+    height: 30rem;
+    top: 22rem;
+  } 
+
+  .intro__picture-char  {
+    width: 29rem;
+    height: 29rem;
+  }
+
+  .intro__content {
+    top: 14%;
+    left: 12%;
+  }
+
+  .intro__heading {
+    width: 110%;
+  }
+
+  .intro__para {
+    width: 100%;
+  }
+
+  .intro__picture-phone {
+    width: 20rem;
+    height: 37rem;
+  }
+
+  .benefit__list {
+    padding: 4.5rem 0;
+  }
+
+  .location {
+    justify-items: center;
+  }
+
+  .location__award {
+    justify-self: unset !important;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .intro__text {
+    width: 47%;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .intro__circle {
+    left: -58rem;
+  }
+
+  .intro__background {
+    width: 20rem;
+    height: 20rem;  
+    top: 31rem;
+    right: -1rem;
+  } 
+
+  .intro__picture-char  {
+    width: 19rem;
+    height: 19rem;
+  }
+
+  .intro__content {
+    top: 14%;
+    left: 12%;
+  }
+
+  .intro__heading {
+    width: 180%;
+  }
+
+  .intro__para {
+    width: 157%;
+  }
+
+  .intro__picture-phone {
+    display: none;
+  }
+
+  .advertise__cover {
+    gap: 9rem;
+  }
+
+  .advertise__content {
+    padding: 0rem 4rem;
+  }
+
+  .advertise__heading {
+    font-size: 2rem;
+  }
+
+  .advertise__background {
+    width: 24rem;
+    height: 24rem;
+  }
+
+  .advertise__picture {
+    width: 23rem;
+    height: 23rem;
+  }
+
+  .about__cover {
+    padding: 5.25rem 0;
+  }
+
+  .about__story {
+    width: 18.75rem;
+  }
+
+  
+}
+
+@media screen and (max-width: 690px) {
+  .intro__circle {
+    left: -68rem;
+  }
+
+  .intro__background {
+    width: 16rem;
+    height: 16rem;
+    top: 35rem;
+    right: -1rem;
+  } 
+
+  .intro__picture-char  {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .intro__content {
+    top: 12%;
+    left: 12%;
+  }
+
+  .intro__heading {
+    width: 180%;
+    margin-bottom: 1rem;
+  }
+
+  .intro__para {
+    width: 157%;
+    margin-bottom: 2rem;
+  }
+
+  .intro__btn {
+    margin-top: 1rem;
+    gap: 1.5rem;
+    width: 176%;
+  }
+
+  .checking__heading {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .intro__background {
+    width: 15rem;
+    height: 15rem;
+    top: 36rem;
+    right: -1rem;
+  } 
+
+  .intro__picture-char  {
+    width: 14rem;
+    height: 14rem;
+  }
+
+  .intro__content {
+    top: 8%;
+    left: 12%;
+  }
+
+  .intro__heading {
+    width: 180%;
+    font-size: 2.625rem;
+    margin-bottom: 2rem;
+  }
+
+  .intro__para {
+    width: 157%;
+  }
+
+  .intro__picture-phone {
+    display: none;
+  }
+
+  .intro__btn {
+    margin-top: 2rem;
+    gap: 1rem;
+    width: 176%;
+  }
+
+  .slider__heading {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1.9rem;
+  }
+
+  .advertise__heading {
+    font-size: 2rem;
+    width: 110%;
+  }
+
+  .advertise__para {
+    width: 110%;
+  }
+
+  .advertise__btn {
+    width: 120%;
+  }
+
+  .advertise__background {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .advertise__picture {
+    width: 19rem;
+    height: 19rem;
+  }
+
+
+  .feature {
+    padding: 2rem;
+  }
+
+  .benefit__heading {
+    width: 120%;
+  }
+
+  .signup {
+    width: 100%;
+    margin: 0 2px 0 2px;
+  }
+
+  .signup__content {
+    padding: 1rem;
+  }
+
+  .signup__input {
+    width: auto;
+  }
+
+  .location {
+    justify-items: center !important;
+  }
+
 }
